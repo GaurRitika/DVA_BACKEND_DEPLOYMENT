@@ -33,11 +33,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 # Construct the path to the .env file
 env_file = ROOT_DIR / ".env"
 
-# Ensure .env file exists before loading it
-if not env_file.exists():
-    raise FileNotFoundError(f".env file not found at {env_file}")
-
-# Load environment variables from .env file
+# Load environment variables from .env file if it exists (for local dev)
 load_dotenv(env_file)
 
 # Get Groq API key with error handling
