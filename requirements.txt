@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+python-multipart
+langchain
+langchain-groq
+dnspython
+certifi
+streamlit
