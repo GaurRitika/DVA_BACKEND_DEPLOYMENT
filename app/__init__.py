@@ -17,7 +17,7 @@ app.add_middleware(
                 #    'https://frontend-dot-ayurguide-451219.uc.r.appspot.com' 
                 "https://mydva-deployment-5wkf7skpp-ritika-gaurs-projects.vercel.app/"
                    ],
-    allow_credentials=False,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
