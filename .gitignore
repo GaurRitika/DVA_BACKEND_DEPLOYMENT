@@ -1,3 +1,8 @@
-/venv/
-.env
-node_modules/
+echo "/venv/" > .gitignore
+echo ".env" >> .gitignore
+echo "node_modules/" >> .gitignore
+echo "gcloud init/" >> .gitignore
+echo ".dockerignore" >> .gitignore
+echo "Dockerfile" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .
