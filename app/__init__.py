@@ -15,7 +15,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000" ,
                 #    'https://frontend-dot-ayurguide-451219.uc.r.appspot.com' 
-                "https://mydva-deployment.vercel.app/"
+                "https://mydva-deployment.vercel.app"
                    ],
     allow_credentials=True,
     allow_methods=["*"],
